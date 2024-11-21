@@ -17,6 +17,11 @@ const config = {
         }
     },
     scene: [Play], // Use the imported Play scene
+    dom: {
+        createContainer: true, // Enable DOM elements
+    }
 };
 
 const game = new Phaser.Game(config);
+
+// Create text input field
